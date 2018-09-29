@@ -41,8 +41,8 @@ on your system.
 Examples:
 
 Using a domain
-==============
-$ python kalchas.py -server giwma.asuscomm.com
+
+> python kalchas.py -server giwma.asuscomm.com
 ---------------------------------------------------------------------------
 Country    City       Region     Zip Code   Longitude  Latitude  
 ---------------------------------------------------------------------------
@@ -50,8 +50,8 @@ Country    City       Region     Zip Code   Longitude  Latitude
 Greece     Attiki     Athens     167 77     23.716221  37.97945  
 
 Using an IP address
-===================
-$ python kalchas.py -ipaddr 185.220.101.45
+
+> python kalchas.py -ipaddr 185.220.101.45
 ---------------------------------------------------------------------------
 Proxy Type Country    Region     City       Zip Code   Longitude  Latitude  
 ---------------------------------------------------------------------------
