@@ -63,6 +63,11 @@ def check_ip(ip):
             kalchas_headers.misc_headers()
             print (proxyResults['proxy_type'].ljust(10), locationResults.country_long.decode('ascii').ljust(10), locationResults.region.decode('ascii').ljust(10), locationResults.city.decode('ascii').ljust(10), locationResults.zipcode.decode('ascii').ljust(10), str(locationResults.longitude).ljust(10), str(locationResults.latitude).ljust(10))
 
+        if proxyResults['proxy_type'] == "VPN":
+            kalchas_headers.misc_headers()
+            print (proxyResults['proxy_type'].ljust(10), locationResults.country_long.decode('ascii').ljust(10), locationResults.region.decode('ascii').ljust(10), locationResults.city.decode('ascii').ljust(10), locationResults.zipcode.decode('ascii').ljust(10), str(locationResults.longitude).ljust(10), str(locationResults.latitude).ljust(10))
+
+    #The IP is DHC
     if proxyConfirmation == "2":
         kalchas_headers.misc_headers()
         print (proxyResults['proxy_type'].ljust(10), locationResults.country_long.decode('ascii').ljust(10), locationResults.region.decode('ascii').ljust(10), locationResults.city.decode('ascii').ljust(10), locationResults.zipcode.decode('ascii').ljust(10), str(locationResults.longitude).ljust(10), str(locationResults.latitude).ljust(10))
