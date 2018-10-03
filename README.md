@@ -31,7 +31,14 @@ $ sudo python setup.py install
 
 The above commands will install the modules for IP2Location and IP2Proxy.
 
+Ungzip the bin files
+
+$ gzip -d IP2LOCATION-LITE-DB11.IPV6.BIN.gz
+
+$ gzip -d IP2PROXY-LITE-PX4.BIN.gz
+
 Second requirement is ipaddress.
+
 From the command line run $ python -m "ipaddress"
 If you get error "/usr/lib/python-exec/python3.6/python: No module named  ipaddress" then you need to install ipaddress 
 on your system.
