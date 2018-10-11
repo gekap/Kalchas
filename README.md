@@ -19,15 +19,16 @@ First you need to install IP2Location and IP2Proxy modules.
 - ip2proxy-python-master.zip
 
 Unzip the files and then run sudo python setup.py install 
+
 $ cd ~/ip2proxy-python-master
 
-$ sudo python setup.py install
+$ sudo python3 setup.py install
 
 $ cd ..
 
 $ cd ~/IP2Location-Python-master/
 
-$ sudo python setup.py install
+$ sudo python3 setup.py install
 
 The above commands will install the modules for IP2Location and IP2Proxy.
 
@@ -49,7 +50,7 @@ Examples:
 
 Using a domain
 
-> python kalchas.py -server giwma.asuscomm.com
+> python33 kalchaspy -server giwma.asuscomm.com
 ---------------------------------------------------------------------------
  > Country    City       Region     Zip Code   Longitude  Latitude  
 ---------------------------------------------------------------------------
@@ -58,7 +59,7 @@ Greece     Attiki     Athens     167 77     23.716221  37.97945
 
 Using an IP address
 
-> python kalchas.py -ipaddr 185.220.101.45
+> python3 kalchas.py -ipaddr 185.220.101.45
 ---------------------------------------------------------------------------
 > Proxy Type Country    Region     City       Zip Code   Longitude  Latitude  
 ---------------------------------------------------------------------------
