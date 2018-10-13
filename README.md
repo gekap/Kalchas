@@ -56,18 +56,18 @@ Examples:
 
 Using a domain
 ```
-> python33 kalchaspy -server giwma.asuscomm.com
+$ python33 kalchaspy -server giwma.asuscomm.com
 ---------------------------------------------------------------------------
- > Country    City       Region     Zip Code   Longitude  Latitude  
+Country    City       Region     Zip Code   Longitude  Latitude  
 ---------------------------------------------------------------------------
 
 Greece     Attiki     Athens     167 77     23.716221  37.97945  
 ```
 Using an IP address
 ```
-> python3 kalchas.py -ipaddr 185.220.101.45
+$ python3 kalchas.py -ipaddr 185.220.101.45
 ---------------------------------------------------------------------------
-> Proxy Type Country    Region     City       Zip Code   Longitude  Latitude  
+Proxy Type Country    Region     City       Zip Code   Longitude  Latitude  
 ---------------------------------------------------------------------------
 
 TOR        United Kingdom England    Bristol    BS1 4UA    -2.59665   51.455231 
