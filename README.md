@@ -19,28 +19,34 @@ First you need to install IP2Location and IP2Proxy modules.
 - ip2proxy-python-master.zip
 
 Unzip the files and then run sudo python setup.py install 
-
+```
 $ cd ~/ip2proxy-python-master
-
+```
+```
 $ sudo python3 setup.py install
-
-$ cd ..
-
+```
+```
 $ cd ~/IP2Location-Python-master/
-
+```
+```
 $ sudo python3 setup.py install
+```
 
 The above commands will install the modules for IP2Location and IP2Proxy.
 
 Ungzip the bin files
-
+```
 $ gzip -d IP2LOCATION-LITE-DB11.IPV6.BIN.gz
-
+```
+```
 $ gzip -d IP2PROXY-LITE-PX4.BIN.gz
-
+```
 Second requirement is ipaddress.
 
-From the command line run $ python -m "ipaddress"
+From the command line run 
+```
+$ python -m "ipaddress"
+```
 If you get error "/usr/lib/python-exec/python3.6/python: No module named  ipaddress" then you need to install ipaddress 
 on your system.
 
@@ -49,19 +55,20 @@ on your system.
 Examples:
 
 Using a domain
-
+```
 > python33 kalchaspy -server giwma.asuscomm.com
 ---------------------------------------------------------------------------
  > Country    City       Region     Zip Code   Longitude  Latitude  
 ---------------------------------------------------------------------------
 
 Greece     Attiki     Athens     167 77     23.716221  37.97945  
-
+```
 Using an IP address
-
+```
 > python3 kalchas.py -ipaddr 185.220.101.45
 ---------------------------------------------------------------------------
 > Proxy Type Country    Region     City       Zip Code   Longitude  Latitude  
 ---------------------------------------------------------------------------
 
 TOR        United Kingdom England    Bristol    BS1 4UA    -2.59665   51.455231 
+```
