@@ -56,7 +56,7 @@ Examples:
 
 Using a domain
 ```
-$ python33 kalchaspy -server giwma.asuscomm.com
+$ python3 kalchaspy -server giwma.asuscomm.com
 ---------------------------------------------------------------------------
 Country    City       Region     Zip Code   Longitude  Latitude  
 ---------------------------------------------------------------------------
